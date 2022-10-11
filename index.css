@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat & display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+    margin-left: 50px;;
+}
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 25px;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.info-text {
+    
+    color: #0f141e;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+@media (max-width: 480px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+.avatar {
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: #0f141e 5px 5px 10px;
+}
+.first {
+    color:#aaa;
+}
+
+
+.my_hobbies {
+    background-color:rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+}
+.about_me {
+    background-color:rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+}
+.list {
+    color: #86898f;
+}
+.second {
+    color: #86898f;
+}
+.group label {
+    display: block;
+    
+}
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+.row, .group {
+    margin-right: 50px;
+    width: 100%;
+}
+.row, group:last-child {
+    margin-right: 0;
+}
+.group input,
+.group textarea {
+    width: 100%;
+    box-sizing:border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #0f141e;
+    padding: 15px 0 10px;
+    outline: none;
+    
+
+}
+@media (max-width: 480px) {
+    .row {
+        display: block;
+    }
+
+    .row, .group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+.connection {
+    background-color:rgb(221, 221, 221);
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+
+    
+
+}
+.connection_with-my {
+    color:#86898f;
+}
+.btn {
+    background: #2f4f4f;
+    color:#f1f1f1;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: .8;
+}
+a {
+    color:#2f4f4f;
+    text-decoration: none;
+    cursor: .8;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: orange;
+}
